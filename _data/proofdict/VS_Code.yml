@@ -1,0 +1,10 @@
+id: 01FCZXZ8PZ3Z85FECSPWSGVQAR
+description: VS Code
+expected: VS Code
+patterns:
+  - /vs\s?code/i
+allows: []
+specs:
+  - from: vscode
+    to: VS Code
+tags: []

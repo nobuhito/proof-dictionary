@@ -1,0 +1,13 @@
+id: 01FCZYT4REYGC33752GQJVXXN3
+description: Microsoft
+expected: Microsoft
+patterns:
+  - /microsoft/i
+  - /ms/i
+allows: []
+specs:
+  - from: microsoft
+    to: Microsoft
+  - from: ms
+    to: Microsoft
+tags: []

@@ -2,12 +2,13 @@ id: 01FCZYR83ZYSV2B39R4NTZQZK3
 description: Dev Container
 expected: Dev Container
 patterns:
-  - '[^\.]/dev\s?container/i'
+  - /^(?!\.)dev\s?container/i
 allows: []
 specs:
   - from: Dev container
-    to: Dev container
+    to: Dev Container
   - from: .devcontainer
     to: .devcontainer
+  - from: devcontainer
+    to: Dev Container
 tags: []
-

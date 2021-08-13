@@ -1,0 +1,10 @@
+id: 01FCZYFV84MK14VCMPJZSH68CP
+description: Zenn
+expected: Zenn
+patterns:
+  - /zenn/i
+allows: []
+specs:
+  - from: zenn
+    to: Zenn
+tags: []

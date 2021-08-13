@@ -2,8 +2,10 @@ id: 01FCZYR83ZYSV2B39R4NTZQZK3
 description: Dev Container
 expected: Dev Container
 patterns:
-  - /^(?!\.)dev\s?container/i
-allows: []
+  - /dev\s?container/i
+allows:
+  - \.devcontainer
+  - '{{COMBINATION_WORD}}'
 specs:
   - from: Dev container
     to: Dev Container

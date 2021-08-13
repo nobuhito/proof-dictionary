@@ -1,0 +1,10 @@
+id: 01FCZYJYYPD90TA7A7ZZSJXD94
+description: textlint
+expected: textlint
+patterns:
+  - /textlint/i
+allows: []
+specs:
+  - from: Textlint
+    to: textlint
+tags: []

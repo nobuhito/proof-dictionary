@@ -1,0 +1,13 @@
+id: 01FCZYX16MNBT10GD2645NDKMW
+description: Node.js
+expected: Node.js
+patterns:
+  - /node\.js/i
+  - /nodejs/i
+allows: []
+specs:
+  - from: node.js
+    to: Node.js
+  - from: nodejs
+    to: Node.js
+tags: []
